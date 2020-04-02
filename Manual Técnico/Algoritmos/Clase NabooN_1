@@ -1,0 +1,6 @@
+Inicio Clase NabooN_1 extiende Naves
+    
+    Constructor NabooN_1(var nombreNave, var espacio, var costoProduccion, var velocidad)
+        super(nombreNave, espacio, costoProduccion, velocidad)
+
+Fin Clase NabooN_1

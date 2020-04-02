@@ -1,0 +1,25 @@
+Inicio Clase Jugador
+     var nombre
+     var galactus
+    
+    Constructor Jugador
+    
+    Constructor Jugador(var nombre, var galactus)
+
+    Metodo String getNombre() 
+        retornar nombre
+
+    Metodo setNombre(var nombre) 
+        nombre
+    
+
+    Funcion getGalactus 
+        retornar galactus
+
+    Metodo setGalactus(var galactus) 
+        galactus
+
+    Metodo printJugadorGalactus
+        Escribir "JUGADOR: " + getNombre() + " GALACTUS: " + getGalactus()
+    
+Fin Clase Jugador

@@ -1,0 +1,6 @@
+Inicio Clase Groot extiende Guerreros
+    
+    Constructor Groot(var nombre, var ataqueEspecial, var factorMuerte, var nave)
+        super(nombre,ataqueEspecial, factorMuerte, nave)
+
+Fin Clase Groot

@@ -1,0 +1,6 @@
+Inicio Clase MillenialFalcon extiende Naves
+    
+    Constructor MillenialFalcon(var nombreNave, var espacio, var costoProduccion, var velocidad)
+        super(nombreNave, espacio, costoProduccion, velocidad)
+
+Fin Clase MillenialFalcon

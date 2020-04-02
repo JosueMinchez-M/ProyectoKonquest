@@ -1,0 +1,6 @@
+Inicio Clase Obrero extiende Constructores
+    
+    Constructor Obrero(var tipoConstructor, var tiempoConstruir, var precioCompra, var precioVenta, var construye)
+        super(tipoConstructor, tiempoConstruir, precioCompra, precioVenta, construye)
+
+Fin Clase Obrero

@@ -1,0 +1,6 @@
+Inicio Clase MaestroObra extiende Constructores
+    
+    Constructor MaestroObra(var tipoConstructor, var tiempoConstruir, var precioCompra, var precioVenta, var construye)
+        super(tipoConstructor, tiempoConstruir, precioCompra, precioVenta, construye)
+
+Fin Clase MaestroObra

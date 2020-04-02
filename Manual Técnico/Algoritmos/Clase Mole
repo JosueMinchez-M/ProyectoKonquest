@@ -1,0 +1,6 @@
+Inicio Clase Mole extiende Guerreros
+    
+    Constructor Mole(var nombre, var ataqueEspecial, var factorMuerte, var nave)
+        super(nombre,ataqueEspecial, factorMuerte, nave)
+
+Fin Clase Mole

@@ -1,0 +1,6 @@
+Inicio Clase Arquitecto extiende Constructores
+    
+    Constructor Arquitecto(var tipoConstructor, var tiempoConstruir, var precioCompra, var precioVenta, var construye)
+        super(tipoConstructor, tiempoConstruir, precioCompra, precioVenta, construye)
+
+Fin Clase Arquitecto

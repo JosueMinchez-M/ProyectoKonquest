@@ -1,0 +1,6 @@
+Inicio Clase Ingeniero extiende Constructores
+    
+    Constructor Ingeniero(var tipoConstructor, var tiempoConstruir, var precioCompra, var precioVenta, var construye)
+        super(tipoConstructor, tiempoConstruir, precioCompra, precioVenta, construye)
+
+Fin Clase Ingeniero

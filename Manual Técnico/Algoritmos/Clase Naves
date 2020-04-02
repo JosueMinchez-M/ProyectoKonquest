@@ -1,0 +1,39 @@
+Inicio Clase Naves 
+    var nombreNave
+    var capacidad
+    var costoProduccion
+    var velocidad
+    
+    Constructor Naves
+    
+    Constructor Naves(var nombreNave, var capacidad, var costoProduccion, var velocidad)
+
+    Funcion getNombreNave() 
+        retornar nombreNave
+
+    Metodo setNombreNave(var nombreNave) 
+        nombreNave
+
+    Funcion getCapacidad() 
+        retornar capacidad
+
+    Metodo setCapacidad(var capacidad) 
+        capacidad
+    
+    Funcion getCostoProduccion() 
+        retornar costoProduccion
+
+    Metodo setCostoProduccion(var costoProduccion) 
+        costoProduccion
+
+    Funcion getVelocidad() 
+        retornar velocidad
+
+    Metodo setVelocidad(var velocidad) 
+        velocidad
+    
+    Metodo printMe()
+        Escribir "NAVE: " + getNombreNave() + "\nCAPACIDAD: " + getCapacidad()
+        + " espacios\nCOSTO: " + getCostoProduccion() + " galactus\nVELOCIDAD: " + getVelocidad() + " años luz\n"
+        
+Fin Clase Naves

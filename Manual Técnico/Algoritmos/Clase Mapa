@@ -1,0 +1,258 @@
+Inicio Clase Mapa
+    var cantidadFilas
+    var cantidadColumnas
+    var cantidadPlanetas
+    varbarraColumnas 
+    var tablero 
+    
+    Constructor Mapa
+
+    Constructor Mapa(var cantidadPlanetas)
+
+    
+    Constructor Mapa(var cantidadFilas, var cantidadColumnas, var cantidadPlanetas)
+
+
+    Metodo setCantidadFilas(var cantidadFilas) 
+        cantidadFilas
+
+
+    Metodo setCantidadColumnas(var cantidadColumnas) 
+        cantidadColumnas
+    
+    
+    Funcion getCantidadPlanetas() 
+        retornar cantidadPlaneta
+
+    Metodo setCantidadPlanetas(var cantidadPlanetas) 
+        cantidadPlanetas
+    
+    Metodo crearMapa()
+         Matriz Tablero
+        var ANSI_BLACK = "\u001B[30m"
+        var ANSI_GREEN = "\u001B[32m"
+        var ANSI_BLUE = "\u001B[34m"
+
+        var ANSI_WHITE_BACKGROUND = "\u001B[47m"
+        var ANSI_BLUE_BACKGROUND = "\u001B[44m"
+        var ANSI_BLACK_BACKGROUND = "\u001B[40m"
+        var ANSI_GREEN_BACKGROUND = "\u001B[42m"
+
+        para var i = 0, i < cantidadFilas, i++ 
+            Escribir ANSI_WHITE_BACKGROUND + "| " + i +" "
+            para var j = 0, j < cantidadColumnas, j++ 
+                si(tablero[i][j] == 0)
+                    Escribir ANSI_BLUE_BACKGROUND + ANSI_BLACK +"|_________"
+                sino entonces(tablero[i][j] != 0)
+                    Escribir "|   " + tablero[i][j] + "|"
+
+            Escribir "|"
+
+    Metodo avisoCantidadFilas()
+        si(cantidadFilas > 10)
+            Escribir "\nNo pueden haber más de 10 Filas... \n¡Ingresa de nuevo la cantidad de Filas!"
+        entonces
+            Escribir "\n   ***CANTIDAD REGISTRADA***" + "\n"
+
+    Metodo avisoCantidadColumnas()
+        si(cantidadColumnas > 10)
+            Escribir ""\nNo pueden haber más de 10 Columnas... \n¡Ingresa de nuevo la cantidad de Columnas!"
+        entonces
+            Escribir "\n   ***CANTIDAD REGISTRADA***" + "\n"
+
+    Metodo avisoPlaneta()
+        si(cantidadPlanetas > 8)
+            Escribir "\nNo pueden haber más de 8 planetas... \n¡Ingresa de nuevo la cantidad de planetas!"
+        entonces
+            Escribir "\n   ***CANTIDAD REGISTRADA***"
+    
+    Metodo barraNumeroColumnas()
+        barraColumnas = var[cantidadColumnas]
+        var ANSI_RESET = "\u001B[0m"
+        var ANSI_GREEN = "\u001B[32m"
+        var ANSI_PURPLE = "\u001B[35m"
+        var ANSI_WHITE_BACKGROUND = "\u001B[47m"       
+        para (var i = 0, i < cantidadColumnas, i++)
+            si(i == 0)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "    |    " + "A" +"    " + ANSI_RESET               
+            si entonces(i == 1)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "B" +"    " + ANSI_RESET
+            si entonces(i == 2)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "C" +"    " + ANSI_RESET
+            si entonces(i == 3)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "D" +"    " + ANSI_RESET
+            si entonces(i == 4)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "E" +"    " + ANSI_RESET
+            si entonces(i == 5)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "F" +"    " + ANSI_RESET
+            si entonces(i == 6)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "G" +"    " + ANSI_RESET
+            si entonces(i == 7)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "H" +"    " + ANSI_RESET
+            si entonces(i == 8)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "I" +"    " + ANSI_RESET
+            si entonces(i == 9)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "J" +"    " + ANSI_RESET
+            si entonces(i == 10)
+                Escribir ANSI_WHITE_BACKGROUND + ANSI_PURPLE + "|    " + "K" +"    " + ANSI_RESET
+
+        Escribir ANSI_WHITE_BACKGROUND + ANSI_GREEN + "|" + ANSI_RESET
+    
+    Funcion filaAleatoriaPares()
+        var filaAleatoria
+        si(filaAleatoria == 0)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 1)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 2)
+           retornar filaAleatoria
+        si entonces(filaAleatoria == 3)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 4)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 5)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 6)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 7)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 8)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 9)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 10)
+            retornar filaAleatoria;
+
+        retornar filaAleatoria
+    
+    Funcion columnaAleatoriaImpar()
+        var filaAleatoria
+        si(filaAleatoria == 0)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 1)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 2)
+           retornar filaAleatoria +1
+        si entonces(filaAleatoria == 3)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 4)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 5)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 6)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 7)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 8)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 9)
+            retornar filaAleatoria
+        
+        retornar filaAleatoria
+    
+    
+    Funcion filaAleatoriaImparesJ1()
+        var filaAleatoria
+        si(filaAleatoria == 0)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 1)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 2)
+           retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 3)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 4)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 5)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 6)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 7)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 8)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 9)
+            retornar filaAleatoria
+        
+        retornar filaAleatoria
+    
+    Funcion columnaAleatoriaParesJ1()
+        var filaAleatoria
+        si(filaAleatoria == 0)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 1)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 2)
+           retornar filaAleatoria
+        si entonces(filaAleatoria == 3)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 4)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 5)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 6)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 7)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 8)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 9)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 10)
+            retornar filaAleatoria
+        
+        retornar filaAleatoria
+    
+    Funcion filaAleatoriaImparesJ2()
+        var filaAleatoria
+        si(filaAleatoria == 0)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 1)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 2)
+           retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 3)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 4)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 5)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 6)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 7)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 8)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 9)
+            retornar filaAleatoria
+        
+        retornar filaAleatoria
+
+    Funcion columnaAleatoriaParesJ1()
+        var filaAleatoria
+        si(filaAleatoria == 0)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 1)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 2)
+           retornar filaAleatoria
+        si entonces(filaAleatoria == 3)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 4)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 5)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 6)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 7)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 8)
+            retornar filaAleatoria
+        si entonces(filaAleatoria == 9)
+            retornar filaAleatoria + 1
+        si entonces(filaAleatoria == 10)
+            retornar filaAleatoria
+        
+        retornar filaAleatoria
+        
+Fin Clase Mapa

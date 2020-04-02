@@ -1,0 +1,39 @@
+Inicio Clase Guerreros 
+    var nombre
+    var ataqueEspecial
+    var factorMuerte
+    var espacioEnNave
+    
+    Constructor Guerreros
+    
+    Constructor Guerreros(var nombre, var ataqueEspecial, var factorMuerte, var espacioEnNave)
+
+    Funcion getNombre() 
+        retornar nombre
+
+    Metodo setNombre(var nombre) 
+        nombre
+   
+    Funcion getAtaqueEspecial() 
+        retornar ataqueEspecial
+
+    Metodo setAtaqueEspecial(var ataqueEspecial) 
+        ataqueEspecial
+
+    Funcion getFactorMuerte() 
+        retornar factorMuerte
+
+    Metodo setFactorMuerte(var factorMuerte) 
+        factorMuerte
+
+    Funcion getEspacioEnNave() 
+        retornar espacioEnNave
+
+    Metodo setEspacioEnNave(var espacioEnNave) 
+        espacioEnNave
+    
+    Metodo pirntMe()
+        Escribir "GUERRERO: " + getNombre() + "\nATAQUE: " + getAtaqueEspecial() + 
+                "\nFACTOR DE MUERTE: " + getFactorMuerte() + "\nOCUPA EN NAVE: " + getEspacioEnNave() + " espacio/s\n"
+
+Fin Clase Guerreros

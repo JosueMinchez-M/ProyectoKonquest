@@ -1,0 +1,48 @@
+Inicio Clase Constructores
+    var tipoConstructor
+    var tiempoConstruir
+    var precioCompra
+    var precioVenta
+    var construye
+    
+    Constructor Constructores
+
+    
+    Constructor Constructores(var tipoConstructor, var tiempoConstruir, var precioCompra, var precioVenta, var construye)
+
+    Funcion getTipoConstructor() 
+        retornar tipoConstructor
+
+    Metodo setTipoConstructor(var tipoConstructor) 
+        tipoConstructor
+    
+    Funcion getTiempoConstruir() 
+        retornar tiempoConstruir
+
+    Metodo setTiempoConstruir(var tiempoConstruir) 
+        tiempoConstruir
+
+    Funcion getPrecioCompra() 
+        retornar precioCompra
+
+    Metodo setPrecioCompra(var precioCompra) 
+        precioCompra
+
+    Funcion getPrecioVenta() 
+        retornar precioVenta
+
+    Metodo setPrecioVenta(var precioVenta) 
+        precioVenta
+
+    Funcion getConstruye() 
+        retornar construye
+
+    Metodo setConstruye(var construye) 
+        construye
+    
+    Metodo printMe()
+        Escribir "CONSTRUCTOR: " + getTipoConstructor() + "\nTIEMPO PARA CONSTRUIR: " 
+                + getTiempoConstruir() + " turnos\nPRECIO COMPRA: " + getPrecioCompra() + 
+                " galactus\nPRECIO VENTA: " + getPrecioVenta() + " galactus\nCONSTRUYE NAVE: " + getConstruye() + "\n"
+
+Fin Clase Constructores

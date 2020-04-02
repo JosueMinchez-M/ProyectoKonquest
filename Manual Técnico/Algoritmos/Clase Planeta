@@ -1,0 +1,77 @@
+Inicio Clase Planeta 
+    var nombre
+    var porcentajeMuerte
+    var cantidadConstructores
+    var cantidadNaves
+    var cantidadGuerreros
+    var probabilidadDistribucion
+    var coordenadaFilaX
+    var coordenadaColumnaY
+    
+    Constructor Planeta
+
+    Constructor Planeta(var probabilidadDistribucion, var cantidadGuerreros)
+
+    
+    Constructor Planeta(var nombre, var porcentajeMuerte, var cantidadConstructores, 
+        var cantidadNaves, var coordenadaFilaX, var coordenadaColumnaY, var probabilidadDistribucion)
+
+    Funcio getNombre
+        retornar nombre
+
+    Metodo setNombre(var nombre) 
+        nombre
+
+    Funcion getPorcentajeMuerte()
+        retornar porcentajeMuerte
+
+    Metodo setPorcentajeMuerte(var porcentajeMuerte) 
+        porcentajeMuerte
+
+    Funcion getCantidadConstructores() 
+        retornar cantidadConstructores
+
+    Funcion setCantidadConstructores(var cantidadConstructores) 
+        cantidadConstructores
+
+    Funcion getCantidadNaves() 
+        retornar cantidadNaves
+
+
+    Metodo setCantidadNaves(var cantidadNaves) 
+        cantidadNaves
+
+
+    Funcion getCantidadGuerreros() 
+        retornar cantidadGuerreros
+
+    Metodo setCantidadGuerreros(var cantidadGuerreros)
+        cantidadGuerreros
+
+    Funcion getProbabilidadDistribucion() 
+        retornar probabilidadDistribucion
+
+
+    Metodo setProbabilidadDistribucion(var probabilidadDistribucion) 
+        probabilidadDistribucion
+
+
+    Funcion getCoordenadaFilaX() 
+        retornar coordenadaFilaX
+
+    Metodo setCoordenadaFilaX(var coordenadaFilaX) 
+        coordenadaFilaX
+
+
+    Funcion getCoordenadaColumnaY() 
+        retornar coordenadaColumnaY
+    
+
+    Metodo setCoordenadaColumnaY(var coordenadaColumnaY) 
+        coordenadaColumnaY
+       
+    Metodo printMe()
+        Escribir "\nNOMBRE: " + getNombre() + "\nPORCENTAJE DE MUERTE: " + getPorcentajeMuerte() + 
+                "\nESPACIO CONSTRUCTORES: " + getCantidadConstructores() + "\nESPACIO NAVES: " + getCantidadNaves()
+
+Fin Clase Planeta

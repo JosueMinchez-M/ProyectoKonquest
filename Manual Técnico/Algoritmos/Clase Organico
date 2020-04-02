@@ -1,0 +1,37 @@
+Inicio Clase Organico extiende Planeta
+    var nombrePlaneta
+    var tipoGuerrero
+    var dineroProducido
+    
+    Constructor Organico
+    
+    Constructor Organico (var nombrePlaneta, var tipoGuerrero, var dineroProducido, var probabilidadDistribucion, var cantidadGuerreros)
+
+    Funcion getNombrePlaneta() 
+        retornar nombrePlaneta
+
+    Metodo setNombrePlaneta(var nombrePlaneta) 
+        nombrePlaneta
+    
+    Funcion getTipoGuerrero() 
+        retornar tipoGuerrero
+    
+    Metodo setTipoGuerrero(var guerrero) 
+        guerrero
+
+    Funcion getDineroProducido() 
+        retornar dineroProducido
+
+    Metodo setDineroProducido(var dineroProducido) 
+        dineroProducido
+
+    Funcion getProbabilidadDistribucion() 
+        retornar probabilidadDistribucion
+    
+    Metodo printMe()
+        Escribir "\nPLANETA " + getNombrePlaneta()
+        Escribir "--------------"
+        Escribir "GUERRERO: " + getTipoGuerrero() + "\nDINERO PRODUCIDO: " + "Entre 50-100 Galactus" 
+        + "\nCANTIDAD GUERREROS: " + "Entre 15-25 Guerreros Mole" + "\n"
+
+Fin Clase Organico

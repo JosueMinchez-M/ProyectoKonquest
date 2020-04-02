@@ -1,0 +1,6 @@
+Inicio Clase StarDestroyer extiende Naves
+    
+    Constructor StarDestroyer(var nombreNave, var espacio, var costoProduccion, var velocidad)
+        super(nombreNave, espacio, costoProduccion, velocidad)
+
+Fin Clase StarDestroyer

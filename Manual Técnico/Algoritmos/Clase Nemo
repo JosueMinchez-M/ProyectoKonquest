@@ -1,0 +1,6 @@
+Inicio Clase Nemo extiende Guerreros
+    
+    Constructor Nemo(var nombre, var ataqueEspecial, var factorMuerte, var nave)
+        super(nombre,ataqueEspecial, factorMuerte, nave)
+
+Fin Clase Nemo
